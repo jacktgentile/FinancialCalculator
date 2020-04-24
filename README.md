@@ -14,18 +14,18 @@ Calculates PMT given N, I/Y, PV, and FV values. Payments are made at the END
 of each period by default.
 
 usage:
-* `python calcFV.py [-b] <number> <interest> <present> <future>`
+* `python calcPMT.py [-b] <number> <interest> <present> <future>`
 
-* `python calcFV.py -h`
+* `python calcPMT.py -h`
 
 ## Calculate Present Value (PV)
 Calculates PV given N, I/Y, PMT, and FV values. Payments are made at the END
 of each period by default.
 
 usage:
-* `python calcFV.py [-b] <number> <interest> <payment> <future>`
+* `python calcPV.py [-b] <number> <interest> <payment> <future>`
 
-* `python calcFV.py -h`
+* `python calcPV.py -h`
 
 ## Calculate Future Value (FV)
 Calculates FV given N, I/Y, PV, and PMT values. Payments are made at the END
